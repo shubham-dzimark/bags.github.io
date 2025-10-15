@@ -38,7 +38,7 @@ a {
 
 .container-outer {
     width: 100%;
-    max-width: 500px;
+    max-width: 576px;
     margin: 0 auto;
 }
 
@@ -48,8 +48,6 @@ a {
     margin: 0 auto;
 }
 
-
-
 /* Header */
 section#head-note {
     padding: 1rem 0;
@@ -57,5 +55,9 @@ section#head-note {
 }
 
 section#head-note p {
-    font-size: 1.6rem;
+    font-size: 2rem;
+}
+
+section#head-note .headnote-free-shipping {
+    font-weight: 700;
 }
