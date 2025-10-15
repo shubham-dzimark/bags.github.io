@@ -36,6 +36,15 @@ a {
     align-items: center;
 }
 
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-inner {
+    gap: 1rem;
+}
+
 .container-outer {
     width: 100%;
     max-width: 576px;
@@ -48,6 +57,21 @@ a {
     margin: 0 auto;
 }
 
+.relative {
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-seprator {
+    height: 0.15rem;
+    background-color: #E2E2E2;
+}
+
 /* Header */
 section#head-note {
     padding: 1rem 0;
@@ -55,9 +79,108 @@ section#head-note {
 }
 
 section#head-note p {
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 section#head-note .headnote-free-shipping {
     font-weight: 700;
+}
+
+/* Hero */
+section#hero {
+    padding: 2.2rem 0 3.5rem;
+}
+
+section#hero .ratings {
+    display: flex;
+    gap: 0.5rem;
+}
+
+section#hero .star-rating {
+    display: flex;
+    gap: 0.25rem;
+}
+
+section#hero .star-rating .star {
+    width: 2rem;
+    height: 2rem;
+}
+
+section#hero .star-rating .star svg {
+    width: 100%;
+    height: 100%;
+}
+
+section#hero .star-rating .rating-count {
+    font-size: 1.6rem;
+    text-decoration: underline;
+}
+
+section#hero .main-heding {
+    padding: 0 3rem;
+    margin-bottom: 4rem;
+}
+
+section#hero .main-heding h1 {
+    font-size: 4.5rem;
+    text-align: center;
+    line-height: 1.09;
+    font-weight: 900;
+    font-style: italic;
+}
+
+section#hero .main-heding img.heading-stroke {
+    max-width: 78%;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    right: 5%;
+    transform: translateY(-35%);
+    z-index: -1;
+    object-fit: contain;
+}
+
+section#hero .hero-subheading {
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+section#hero .availbility-check-cta a {
+    border: none;
+    display: flex;
+    gap: 3.3rem;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 2.3rem 9.2rem;
+    font-weight: 700;
+    font-size: 2.8rem;
+    border-radius: 1.9rem;
+}
+
+section#hero .availbility-check-cta a svg {
+    width: 3rem;
+}
+
+/* Testimonials */
+section#testimonials {
+    padding: 2.2rem 0;
+}
+
+section#testimonials .testimonials-heading {
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+section#testimonials #testimonials-slider {
+    width: 45rem;
+}
+section#testimonials #testimonials-slider .swiper-wrapper {
+    padding: 1rem 0;
+}
+
+section#testimonials #testimonials-slider .swiper-wrapper .swiper-slide {
+    width: 100%;
+    padding: 2.5rem 0;
 }

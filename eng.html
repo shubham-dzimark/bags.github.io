@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mila Bags</title>
+    <!-- Swiper CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <!-- Main CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -12,11 +15,126 @@
     <header>
         <section id="head-note" class="container-outer">
             <div class="container-inner flex-center">
-                <p><strong class="headnote-free-shipping">free shipping & free returns</strong> | 90 Day Money Back Guarantee</p>
+                <p><strong class="headnote-free-shipping">free shipping & free returns</strong> | 90 Day Money Back
+                    Guarantee</p>
             </div>
         </section>
     </header>
 
+    <section id="hero" class="container-outer">
+        <div class="container-inner hero-inner flex-center column">
+            <!-- Ratings -->
+            <div class="ratings">
+                <div class="star-rating">
+                    <span class="star">
+                        <svg width="62" height="58" viewBox="0 0 62 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M30.0161 1.4655C30.2598 0.737525 31.2895 0.737528 31.5331 1.46551L38.1747 21.3089C38.2839 21.6351 38.5893 21.8549 38.9332 21.8549H60.3744C61.155 21.8549 61.4733 22.8585 60.8354 23.3084L43.5304 35.5138C43.2417 35.7174 43.1208 36.0863 43.2329 36.4213L49.8524 56.1986C50.0976 56.9313 49.2643 57.5514 48.6329 57.1061L31.2356 44.8356C30.9592 44.6407 30.59 44.6407 30.3136 44.8356L12.9164 57.1061C12.2849 57.5514 11.4516 56.9313 11.6968 56.1986L18.3163 36.4213C18.4285 36.0863 18.3076 35.7174 18.0189 35.5138L0.71383 23.3084C0.0759568 22.8585 0.394269 21.8549 1.17484 21.8549H22.616C22.9599 21.8549 23.2653 21.6351 23.3745 21.3089L30.0161 1.4655Z"
+                                fill="#1A1A1A" />
+                        </svg>
+                    </span>
+                    <span class="star"><svg width="62" height="58" viewBox="0 0 62 58" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M30.0161 1.4655C30.2598 0.737525 31.2895 0.737528 31.5331 1.46551L38.1747 21.3089C38.2839 21.6351 38.5893 21.8549 38.9332 21.8549H60.3744C61.155 21.8549 61.4733 22.8585 60.8354 23.3084L43.5304 35.5138C43.2417 35.7174 43.1208 36.0863 43.2329 36.4213L49.8524 56.1986C50.0976 56.9313 49.2643 57.5514 48.6329 57.1061L31.2356 44.8356C30.9592 44.6407 30.59 44.6407 30.3136 44.8356L12.9164 57.1061C12.2849 57.5514 11.4516 56.9313 11.6968 56.1986L18.3163 36.4213C18.4285 36.0863 18.3076 35.7174 18.0189 35.5138L0.71383 23.3084C0.0759568 22.8585 0.394269 21.8549 1.17484 21.8549H22.616C22.9599 21.8549 23.2653 21.6351 23.3745 21.3089L30.0161 1.4655Z"
+                                fill="#1A1A1A" />
+                        </svg></span>
+                    <span class="star"><svg width="62" height="58" viewBox="0 0 62 58" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M30.0161 1.4655C30.2598 0.737525 31.2895 0.737528 31.5331 1.46551L38.1747 21.3089C38.2839 21.6351 38.5893 21.8549 38.9332 21.8549H60.3744C61.155 21.8549 61.4733 22.8585 60.8354 23.3084L43.5304 35.5138C43.2417 35.7174 43.1208 36.0863 43.2329 36.4213L49.8524 56.1986C50.0976 56.9313 49.2643 57.5514 48.6329 57.1061L31.2356 44.8356C30.9592 44.6407 30.59 44.6407 30.3136 44.8356L12.9164 57.1061C12.2849 57.5514 11.4516 56.9313 11.6968 56.1986L18.3163 36.4213C18.4285 36.0863 18.3076 35.7174 18.0189 35.5138L0.71383 23.3084C0.0759568 22.8585 0.394269 21.8549 1.17484 21.8549H22.616C22.9599 21.8549 23.2653 21.6351 23.3745 21.3089L30.0161 1.4655Z"
+                                fill="#1A1A1A" />
+                        </svg></span>
+                    <span class="star"><svg width="62" height="58" viewBox="0 0 62 58" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M30.0161 1.4655C30.2598 0.737525 31.2895 0.737528 31.5331 1.46551L38.1747 21.3089C38.2839 21.6351 38.5893 21.8549 38.9332 21.8549H60.3744C61.155 21.8549 61.4733 22.8585 60.8354 23.3084L43.5304 35.5138C43.2417 35.7174 43.1208 36.0863 43.2329 36.4213L49.8524 56.1986C50.0976 56.9313 49.2643 57.5514 48.6329 57.1061L31.2356 44.8356C30.9592 44.6407 30.59 44.6407 30.3136 44.8356L12.9164 57.1061C12.2849 57.5514 11.4516 56.9313 11.6968 56.1986L18.3163 36.4213C18.4285 36.0863 18.3076 35.7174 18.0189 35.5138L0.71383 23.3084C0.0759568 22.8585 0.394269 21.8549 1.17484 21.8549H22.616C22.9599 21.8549 23.2653 21.6351 23.3745 21.3089L30.0161 1.4655Z"
+                                fill="#1A1A1A" />
+                        </svg></span>
+                    <span class="star"><svg width="62" height="58" viewBox="0 0 62 58" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M30.0161 1.4655C30.2598 0.737525 31.2895 0.737528 31.5331 1.46551L38.1747 21.3089C38.2839 21.6351 38.5893 21.8549 38.9332 21.8549H60.3744C61.155 21.8549 61.4733 22.8585 60.8354 23.3084L43.5304 35.5138C43.2417 35.7174 43.1208 36.0863 43.2329 36.4213L49.8524 56.1986C50.0976 56.9313 49.2643 57.5514 48.6329 57.1061L31.2356 44.8356C30.9592 44.6407 30.59 44.6407 30.3136 44.8356L12.9164 57.1061C12.2849 57.5514 11.4516 56.9313 11.6968 56.1986L18.3163 36.4213C18.4285 36.0863 18.3076 35.7174 18.0189 35.5138L0.71383 23.3084C0.0759568 22.8585 0.394269 21.8549 1.17484 21.8549H22.616C22.9599 21.8549 23.2653 21.6351 23.3745 21.3089L30.0161 1.4655Z"
+                                fill="#1A1A1A" />
+                        </svg></span>
+                </div>
+                <div class="rating-count">
+                    <p>4.92/5 rating</p>
+                </div>
+            </div>
+
+            <!-- Heading -->
+            <div class="main-heding relative">
+                <h1>
+                    What makes the Mila the perfect Office Bag?
+                </h1>
+                <img class="heading-stroke" src="images/heading-stroke.png" alt="">
+            </div>
+
+            <div class="hero-subheading">
+                <p>
+                    <span style="text-decoration: underline;">6 Reasons</span> why The Mila is perfect for You.
+                </p>
+            </div>
+
+            <div class="hero-banner">
+                <img src="images/hero-banner.webp" alt="">
+            </div>
+
+            <div class="availbility-check-cta">
+                <a href="#">
+                    <span>check availability</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="113" height="40" viewBox="0 0 113 40" fill="none">
+                        <path
+                            d="M3.24451 17.2453C1.75182 17.2453 0.541766 18.4553 0.541766 19.948C0.541766 21.4407 1.75182 22.6507 3.24451 22.6507V19.948V17.2453ZM112.107 21.8591C113.162 20.8036 113.162 19.0924 112.107 18.0369L94.9068 0.836735C93.8513 -0.21875 92.1401 -0.21875 91.0846 0.836735C90.0291 1.89222 90.0291 3.6035 91.0846 4.65899L106.374 19.948L91.0846 35.237C90.0291 36.2925 90.0291 38.0038 91.0846 39.0593C92.1401 40.1147 93.8513 40.1147 94.9068 39.0593L112.107 21.8591ZM3.24451 19.948V22.6507H110.196V19.948V17.2453H3.24451V19.948Z"
+                            fill="white" />
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Seprator -->
+    <section id="seprator" class="container-outer">
+        <div class="container-inner">
+            <div class="section-seprator"></div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="container-outer">
+        <div class="container-inner">
+            <div class="testimonials-inner">
+                <div class="testimonials-heading">
+                    <h2>What you guys are saying:</h2>
+                </div>
+            </div>
+
+            <!-- Slider main container -->
+            <div id="testimonials-slider" class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        
+                    </div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                </div>
+                <!-- If we need pagination -->
+                <div id="testimonials-pagination" class="swiper-pagination">
+                    <span class="swiper-pagination-bullet"></span>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Swiper CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <!-- Main JS -->
     <script src="script.js"></script>
 </body>
 
